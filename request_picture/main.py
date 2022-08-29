@@ -1,4 +1,4 @@
-from config import API_KEY, BOT_TOKEN
+from config import BOT_TOKEN
 
 import telebot
 from telebot.types import Message

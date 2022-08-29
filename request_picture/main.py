@@ -38,6 +38,7 @@ def get_image(message:Message):
     picture = get_picture.get_picture(QUERY, NUMBER_OF_PICTURES)
     bot.send_photo(chat_id=message.chat.id, photo=picture, caption=QUERY)
 
+
 while True:
     try:
         bot.polling()
